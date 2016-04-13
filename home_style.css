@@ -1,0 +1,30 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body 	{display: table;
+
+
+}
+
+
+.boxed {border:10 px;
+	display: table-cell; 
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+
+a:active, a:hover, a:visited, a:link {
+	text-decoration: none; 
+	color: #fff; 
+	border:10px;
+	border-color: #ccc;
+}
+
+a:hover {border:10px;
+	border-color: #E8FFB2;
+	font-weight: bold; 
+	background-color: #cccccc; 
+}
