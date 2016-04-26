@@ -3,16 +3,10 @@ body, html {
 	width: 100%;
 }
 
-body 	{display: table;
+body 	{background-image: url(milkweed_home.jpg);
+	opacity: 0.7;
+	filter: alpha(opacity=70)
 
-
-}
-
-
-.boxed {border:10 px;
-	display: table-cell; 
-	text-align: center; 
-	vertical-align: middle; 
 }
 
 
@@ -20,11 +14,49 @@ a:active, a:hover, a:visited, a:link {
 	text-decoration: none; 
 	color: #fff; 
 	border:10px;
-	border-color: #ccc;
+	border-color: #000;
 }
 
-a:hover {border:10px;
-	border-color: #E8FFB2;
+a:hover {border:20px;
+	border-color: #ccc;
 	font-weight: bold; 
-	background-color: #cccccc; 
+	background-color: #fff; 
+}
+
+
+
+div.transbox {
+
+    margin: 90px;
+    background-color: #000;
+    outline-color: #000;
+    border: 3px solid white;
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
+}
+
+div.transbox li {
+	color: #fff;
+    margin: 20%;
+    font-weight: bold;
+    color: #fff;
+
+
+}
+
+nav ul {
+	list-style-type: none; 
+	padding: 0; 
+}
+
+nav li {
+	text-align: center;
+	display: inline; 
+	padding: 0.5em; 
+	color: #fff;
+}
+
+nav a:active, nav a:hover, nav a:visited, nav a:link {
+	text-decoration: none;
+
 }
